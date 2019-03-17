@@ -8,6 +8,7 @@
 
 namespace java com.efekRevisi.thrift.news
 namespace js efekRevisi.ThriftServices.news
+namespace py efekRevisi.ThriftServices.news
 
 /**
  * Struct for property criteria parameter.
@@ -20,7 +21,7 @@ struct News {
 
     3: required string thumbnail,
 
-    4: required string title,
+    4: required string date,
 
     5: required string description
 }
