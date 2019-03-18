@@ -15,7 +15,7 @@ namespace py efekRevisi.ThriftServices.news
  */
 struct News {
 
-    1: required i64 newsID,
+    1: required i32 newsID,
 
     2: required string title,
 
